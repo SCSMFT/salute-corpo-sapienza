@@ -34,7 +34,7 @@
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
                 <div class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center mr-3">
-                    <i class="fas fa-hands-helping text-amber-500 text-xl"></i>
+                    <img src="https://scontent-fco2-1.xx.fbcdn.net/v/t39.30808-1/484343905_505114732668262_7429280877889826112_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=oWm6ljPSLikQ7kNvwF_oLY2&_nc_oc=Adm9zMvikUvInsNt_Q1c4_zgQZ0f3dPvxBmFarQVKmokn9rcPPJxPJDiNfDPizOy__s&_nc_zt=24&_nc_ht=scontent-fco2-1.xx&_nc_gid=X1ku3aNYa_AQLJQXBeaGiw&oh=00_AfWXlILV3scl1fdwfthdwuAAuVa4NpAPoSXkQ9Cvn2Yu_w&oe=689FEC15" alt="Logo" class="w-full h-full rounded-full object-cover">
                 </div>
                 <h1 class="text-xl font-bold text-gray-800">Salute Corpo Sapienza</h1>
             </div>
@@ -75,7 +75,7 @@
             </div>
             <div class="md:w-1/2">
                 <div class="bg-white p-2 rounded-2xl shadow-xl">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                    <img src="https://ucf9c5a2001c54e5ae1adf08a0ec.previews.dropboxusercontent.com/p/thumb/ACt1pSKfjT8vJGqcOYJ_45lB67uI9OA24NVTAJmhZiFXa_4k7fuYwLR-HdHihrP-1SWEtgQ8JXGk4VdM2H9RZFcAim5Xm8E1yvYW14NdL2rlq-sdLr2BAwGGXL257SbcBHE-1Np2h3tAWpX-qA2WUju3mkVa9IV3PCQ9YyTrjrBCjnS6wgjQb0tsBQbcyW11j2VRuwMboDDRatJwg4WtwW2tfrc4CVpsEGfvij0YPpBmALYrJgPZpEO6QiN6wgnVhYPrIbQjzjgsEJLGBYlq1LnWhY3Sw1mZPHCOZPZNUvv10tkpwxh0Fjbt6q0fxmn7X-3p6IrJiWF9ejRJpNZ8Gdigao2-ZSCP4Yg1zapDIw6mrc6xy3ow3Uk8dx7n1aUGsDD62Yeg4ULxQeup5AerHy71VVnpAd2iuUxjvkP9JvvkR_QevUtayuOP1O2RKLyNRBs/p.png?is_prewarmed=true"
                          alt="Silvia Concetta Sapienza al lavoro"
                          class="w-full h-auto rounded-xl object-cover">
                 </div>
@@ -503,7 +503,7 @@
                 <div class="mb-6 md:mb-0">
                     <div class="flex items-center">
                         <div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center mr-3">
-                            <i class="fas fa-hands-helping text-amber-500"></i>
+                            <img src="https://scontent-fco2-1.xx.fbcdn.net/v/t39.30808-1/484343905_505114732668262_7429280877889826112_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=oWm6ljPSLikQ7kNvwF_oLY2&_nc_oc=Adm9zMvikUvInsNt_Q1c4_zgQZ0f3dPvxBmFarQVKmokn9rcPPJxPJDiNfDPizOy__s&_nc_zt=24&_nc_ht=scontent-fco2-1.xx&_nc_gid=X1ku3aNYa_AQLJQXBeaGiw&oh=00_AfWXlILV3scl1fdwfthdwuAAuVa4NpAPoSXkQ9Cvn2Yu_w&oe=689FEC15" alt="Logo" class="w-full h-full rounded-full object-cover">
                         </div>
                         <h3 class="text-xl font-bold">Silvia Concetta Sapienza</h3>
                     </div>
