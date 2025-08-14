@@ -1,1 +1,666 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPG Endermologie Medical - Trattamenti e Benefici</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1585435557343-3b92a66a4d4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .treatment-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .before-after {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .before-after img {
+            width: 100%;
+            display: block;
+        }
+        
+        .before-after .after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .before-after .slider {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 4px;
+            height: 100%;
+            background: white;
+            z-index: 10;
+            cursor: ew-resize;
+        }
+        
+        .before-after .slider:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://via.placeholder.com/50x50" alt="LPG Logo" class="h-10 mr-3">
+                <h1 class="text-xl font-bold text-indigo-700">LPG Endermologie</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="text-indigo-700 font-medium hover:text-indigo-500">Home</a>
+                <a href="#trattamenti" class="text-gray-600 font-medium hover:text-indigo-500">Trattamenti</a>
+                <a href="#benefici" class="text-gray-600 font-medium hover:text-indigo-500">Benefici</a>
+                <a href="#tecnologia" class="text-gray-600 font-medium hover:text-indigo-500">Tecnologia</a>
+                <a href="#contatti" class="text-gray-600 font-medium hover:text-indigo-500">Contatti</a>
+            </nav>
+            <button class="md:hidden text-gray-600">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-image h-screen flex items-center justify-center text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">LPG Endermologie Medical</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">La rivoluzionaria tecnologia per il rimodellamento corporeo e il benessere della pelle</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#trattamenti" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">Scopri i trattamenti</a>
+                <a href="#contatti" class="bg-transparent hover:bg-white hover:text-indigo-700 text-white font-bold py-3 px-6 border-2 border-white rounded-full transition duration-300">Prenota una consulenza</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10">
+                    <img src="https://via.placeholder.com/600x400" alt="Macchinario LPG" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Cos'è LPG Endermologie Medical?</h2>
+                    <p class="text-gray-600 mb-4">LPG Endermologie Medical è una tecnologia all'avanguardia nel campo della medicina estetica e della fisioterapia, sviluppata in Francia oltre 30 anni fa e oggi utilizzata in tutto il mondo.</p>
+                    <p class="text-gray-600 mb-6">Questa tecnica non invasiva stimola il tessuto connettivo attraverso un massaggio meccanico eseguito con un manipolo motorizzato che solleva e mobilizza la pelle e il tessuto sottocutaneo.</p>
+                    <div class="flex items-center">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-check-circle text-indigo-600 text-xl"></i>
+                        </div>
+                        <p class="text-gray-800 font-medium">Tecnologia brevettata e clinicamente testata</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trattamenti Section -->
+    <section id="trattamenti" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">I Nostri Trattamenti</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Scopri la gamma completa di trattamenti personalizzati per rispondere alle tue esigenze specifiche</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="treatment-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <img src="https://via.placeholder.com/400x250" alt="Rimodellamento Corporeo" class="w-full">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-indigo-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-spa text-indigo-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">Rimodellamento Corporeo</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Trattamento specifico per ridurre gli inestetismi della cellulite e migliorare la silhouette corporea.</p>
+                        <ul class="mb-4 text-gray-600">
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Riduzione della cellulite</span>
+                            </li>
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Miglioramento del tono cutaneo</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Riduzione delle adiposità localizzate</span>
+                            </li>
+                        </ul>
+                        <button class="text-indigo-600 font-medium hover:text-indigo-800 transition duration-300">Scopri di più →</button>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="treatment-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <img src="https://via.placeholder.com/400x250" alt="Rigenerazione Cutanea" class="w-full">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-indigo-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-leaf text-indigo-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">Rigenerazione Cutanea</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Stimolazione della produzione di collagene ed elastina per una pelle più tonica e giovane.</p>
+                        <ul class="mb-4 text-gray-600">
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Riduzione delle rughe e delle linee d'espressione</span>
+                            </li>
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Miglioramento dell'elasticità cutanea</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Uniformità del colorito e della texture</span>
+                            </li>
+                        </ul>
+                        <button class="text-indigo-600 font-medium hover:text-indigo-800 transition duration-300">Scopri di più →</button>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="treatment-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <img src="https://via.placeholder.com/400x250" alt="Recupero Post-Chirurgico" class="w-full">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-indigo-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-heartbeat text-indigo-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">Recupero Post-Chirurgico</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Supporto alla cicatrizzazione e riduzione degli edemi dopo interventi chirurgici.</p>
+                        <ul class="mb-4 text-gray-600">
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Riduzione del gonfiore post-operatorio</span>
+                            </li>
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Miglioramento della cicatrizzazione</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-indigo-500 mr-2 mt-1"></i>
+                                <span>Prevenzione delle aderenze cicatriziali</span>
+                            </li>
+                        </ul>
+                        <button class="text-indigo-600 font-medium hover:text-indigo-800 transition duration-300">Scopri di più →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefici Section -->
+    <section id="benefici" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">I Benefici di LPG Endermologie</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Una tecnologia che offre risultati visibili e duraturi con benefici multipli</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Benefit 1 -->
+                <div class="bg-indigo-50 rounded-lg p-6 text-center">
+                    <div class="bg-indigo-100 p-3 rounded-full inline-block mb-4">
+                        <i class="fas fa-heart text-indigo-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Stimolazione Circolatoria</h3>
+                    <p class="text-gray-600">Migliora la microcircolazione sanguigna e linfatica, favorendo l'eliminazione delle tossine.</p>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="bg-indigo-50 rounded-lg p-6 text-center">
+                    <div class="bg-indigo-100 p-3 rounded-full inline-block mb-4">
+                        <i class="fas fa-spa text-indigo-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Riduzione della Cellulite</h3>
+                    <p class="text-gray-600">Agisce sugli accumuli adiposi e sulla ritenzione idrica, migliorando l'aspetto della pelle a buccia d'arancia.</p>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="bg-indigo-50 rounded-lg p-6 text-center">
+                    <div class="bg-indigo-100 p-3 rounded-full inline-block mb-4">
+                        <i class="fas fa-leaf text-indigo-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Stimolazione del Collagene</h3>
+                    <p class="text-gray-600">Aumenta la produzione di collagene ed elastina, migliorando tono ed elasticità cutanea.</p>
+                </div>
+                
+                <!-- Benefit 4 -->
+                <div class="bg-indigo-50 rounded-lg p-6 text-center">
+                    <div class="bg-indigo-100 p-3 rounded-full inline-block mb-4">
+                        <i class="fas fa-smile text-indigo-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Effetto Liftante</h3>
+                    <p class="text-gray-600">Rassoda i tessuti e migliora la definizione del contorno del viso e del corpo.</p>
+                </div>
+            </div>
+            
+            <!-- Before/After Slider -->
+            <div class="mt-16 max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">Risultati Visibili</h3>
+                <div class="before-after rounded-lg overflow-hidden shadow-xl">
+                    <img src="https://via.placeholder.com/800x500" alt="Before treatment" class="w-full">
+                    <div class="after">
+                        <img src="https://via.placeholder.com/800x500" alt="After treatment" class="w-full">
+                    </div>
+                    <div class="slider"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologia Section -->
+    <section id="tecnologia" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">La Tecnologia LPG</h2>
+                    <p class="text-gray-600 mb-4">Il sistema LPG utilizza un manipolo motorizzato dotato di rulli che, combinati con un sistema di aspirazione, sollevano e mobilizzano la pelle e il tessuto sottocutaneo in modo preciso e controllato.</p>
+                    <p class="text-gray-600 mb-6">Questa azione meccanica stimola le cellule adipose e i fibroblasti, attivando i processi naturali di rigenerazione tissutale e migliorando la microcircolazione.</p>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-cogs text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-800 mb-2">Personalizzazione del Trattamento</h4>
+                                <p class="text-gray-600">Ogni parametro (intensità, velocità, aspirazione) può essere regolato in base alle esigenze specifiche del paziente e alla zona da trattare.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-shield-alt text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-800 mb-2">Sicurezza e Efficacia</h4>
+                                <p class="text-gray-600">Tecnologia non invasiva, indolore e senza effetti collaterali, con oltre 200 studi clinici che ne dimostrano l'efficacia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://via.placeholder.com/600x600" alt="Tecnologia LPG" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-indigo-700 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Cosa Dicono i Nostri Pazienti</h2>
+                <p class="max-w-2xl mx-auto opacity-80">Le esperienze di chi ha già provato i trattamenti LPG Endermologie</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white bg-opacity-10 rounded-lg p-6 backdrop-blur-sm">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/50x50" alt="Cliente 1" class="rounded-full h-12 w-12 mr-4">
+                        <div>
+                            <h4 class="font-bold">Maria R.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="opacity-90">"Dopo solo 8 sedute ho notato una differenza incredibile nella consistenza della mia pelle. La cellulite è molto diminuita e la pelle è più liscia e tonica. Consiglio vivamente!"</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white bg-opacity-10 rounded-lg p-6 backdrop-blur-sm">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/50x50" alt="Cliente 2" class="rounded-full h-12 w-12 mr-4">
+                        <div>
+                            <h4 class="font-bold">Laura B.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="opacity-90">"Ho fatto il trattamento post-parto per ridurre il gonfiore e migliorare l'elasticità della pelle. I risultati sono stati sorprendenti, molto meglio di quanto mi aspettassi."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white bg-opacity-10 rounded-lg p-6 backdrop-blur-sm">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/50x50" alt="Cliente 3" class="rounded-full h-12 w-12 mr-4">
+                        <div>
+                            <h4 class="font-bold">Giovanna L.</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="opacity-90">"A 50 anni volevo migliorare l'aspetto del mio viso. Dopo il ciclo di trattamenti, le rughe sono visibilmente attenuate e la pelle appare più giovane e luminosa."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Domande Frequenti</h2>
+                <p class="text-gray-600">Tutte le risposte alle domande più comuni sui trattamenti LPG Endermologie</p>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-4 bg-gray-50 hover:bg-gray-100 transition duration-300 flex justify-between items-center">
+                        <span class="font-medium text-gray-800">Quante sedute sono necessarie per vedere i risultati?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden p-4 text-gray-600">
+                        <p>Il numero di sedute varia in base all'obiettivo da raggiungere e alla condizione iniziale. Generalmente si consigliano 8-12 sedute per il rimodellamento corporeo, con frequenza di 1-2 sedute a settimana. Per il viso, invece, sono sufficienti 6-8 sedute. I primi risultati sono visibili già dopo 3-4 trattamenti.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-4 bg-gray-50 hover:bg-gray-100 transition duration-300 flex justify-between items-center">
+                        <span class="font-medium text-gray-800">Il trattamento è doloroso?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden p-4 text-gray-600">
+                        <p>LPG Endermologie è un trattamento non invasivo e generalmente ben tollerato. Si avverte una sensazione di massaggio profondo che può essere più o meno intensa a seconda della zona trattata e della sensibilità individuale. L'operatore regola l'intensità del trattamento per garantire il massimo comfort.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-4 bg-gray-50 hover:bg-gray-100 transition duration-300 flex justify-between items-center">
+                        <span class="font-medium text-gray-800">Ci sono controindicazioni?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden p-4 text-gray-600">
+                        <p>Il trattamento è sconsigliato in caso di flebiti, trombosi, infezioni cutanee, gravidanza e nei primi mesi di allattamento. In caso di patologie specifiche o assunzione di farmaci, è sempre consigliabile consultare il proprio medico prima di iniziare il trattamento.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-4 bg-gray-50 hover:bg-gray-100 transition duration-300 flex justify-between items-center">
+                        <span class="font-medium text-gray-800">Quanto durano i risultati?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden p-4 text-gray-600">
+                        <p>I risultati sono duraturi se associati a uno stile di vita sano. Per mantenere gli effetti nel tempo, si consigliano sedute di mantenimento ogni 4-6 settimane. L'organismo continua a produrre collagene ed elastina per diverse settimane dopo il trattamento, prolungandone naturalmente i benefici.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-indigo-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Pronto a Scoprire i Benefici di LPG Endermologie?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Prenota una consulenza gratuita con i nostri specialisti per un piano di trattamento personalizzato</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contatti" class="bg-white hover:bg-gray-100 text-indigo-700 font-bold py-3 px-6 rounded-full transition duration-300">Prenota ora</a>
+                <a href="tel:+390123456789" class="bg-transparent hover:bg-indigo-700 text-white font-bold py-3 px-6 border-2 border-white rounded-full transition duration-300">
+                    <i class="fas fa-phone mr-2"></i> Chiamaci
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatti Section -->
+    <section id="contatti" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Contattaci</h2>
+                    <p class="text-gray-600 mb-6">Compila il form per prenotare una consulenza o richiedere informazioni. Ti risponderemo al più presto.</p>
+                    
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Nome e Cognome</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Telefono</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <label for="treatment" class="block text-gray-700 font-medium mb-2">Trattamento di interesse</label>
+                            <select id="treatment" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                <option value="">Seleziona un trattamento</option>
+                                <option value="rimodellamento">Rimodellamento Corporeo</option>
+                                <option value="rigenerazione">Rigenerazione Cutanea</option>
+                                <option value="post-chirurgico">Recupero Post-Chirurgico</option>
+                                <option value="altro">Altro</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Messaggio</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 w-full">Invia Richiesta</button>
+                    </form>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-gray-50 p-8 rounded-lg h-full">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Dove Siamo</h3>
+                        
+                        <div class="mb-8">
+                            <div class="flex items-start mb-4">
+                                <div class="bg-indigo-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Indirizzo</h4>
+                                    <p class="text-gray-600">Via Roma 123, 00100 Roma</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start mb-4">
+                                <div class="bg-indigo-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-phone-alt text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Telefono</h4>
+                                    <p class="text-gray-600">+39 06 1234567</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start mb-4">
+                                <div class="bg-indigo-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Email</h4>
+                                    <p class="text-gray-600">info@endermologieroma.it</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-indigo-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-clock text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Orari</h4>
+                                    <p class="text-gray-600">Lun-Ven: 9:00 - 19:00</p>
+                                    <p class="text-gray-600">Sabato: 9:00 - 13:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="rounded-lg overflow-hidden h-64">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.793810329101!2d12.4923753154412!3d41.8902101792206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1623256789012!5m2!1sit!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="https://via.placeholder.com/100x50" alt="LPG Logo" class="h-10 mb-4">
+                    <p class="text-gray-400">LPG Endermologie Medical è la tecnologia leader nel rimodellamento corporeo e nella rigenerazione cutanea.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Link Veloci</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="#trattamenti" class="text-gray-400 hover:text-white transition duration-300">Trattamenti</a></li>
+                        <li><a href="#benefici" class="text-gray-400 hover:text-white transition duration-300">Benefici</a></li>
+                        <li><a href="#tecnologia" class="text-gray-400 hover:text-white transition duration-300">Tecnologia</a></li>
+                        <li><a href="#contatti" class="text-gray-400 hover:text-white transition duration-300">Contatti</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Contatti</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mr-3 mt-1"></i>
+                            <span>Via Roma 123, 00100 Roma</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mr-3 mt-1"></i>
+                            <span>+39 06 1234567</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mr-3 mt-1"></i>
+                            <span>info@endermologieroma.it</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Seguici</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="bg-gray-700 hover:bg-indigo-600 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="bg-gray-700 hover:bg-blue-400 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="bg-gray-700 hover:bg-pink-600 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="bg-gray-700 hover:bg-red-600 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400">Iscriviti alla nostra newsletter</p>
+                    <div class="flex mt-2">
+                        <input type="email" placeholder="La tua email" class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-900 w-full">
+                        <button class="bg-indigo-600 hover:bg-indigo-700 px-4 rounded-r-lg">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 LPG Endermologie Medical. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+        
+        // Before/After Slider
+        const slider = document.querySelector('.slider');
+        const after = document.querySelector('.after');
+        let isDragging = false;
+        
+        slider.addEventListener('mousedown', () => {
+            isDragging = true;
+        });
+        
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+        
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            
+            const container = document.querySelector('.before-after');
+            const containerRect = container.getBoundingClientRect();
+            let newWidth = e.clientX - containerRect.left;
+            
+            // Limit the slider within the container
+            newWidth = Math.max(0, Math.min(newWidth, containerRect.width));
+            
+            const percentage = (newWidth / containerRect.width) * 100;
+            
+            after.style.width = `${percentage}%`;
+            slider.style.left = `${percentage}%`;
+        });
+        
+        // Mobile menu toggle (would need implementation)
+    </script>
+</body>
+</html>
 
